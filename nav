@@ -1,3 +1,5 @@
+==== Config issue ====
+
 - title: about
   url: /about
 - title: work
@@ -6,3 +8,11 @@
   url: /articles
 - title: hire me
   url: /hire-me
+
+  === _base.scssissue ===
+
+.mega { font-size:$mega-font-size; }
+h1, .h1 { font-size: $h1-font-size; }
+h2, .h2 { font-size: $h2-font-size; }
+h3, .h3 { font-size: $h3-font-size; }
+h4, .h4 { font-size: $h4-font-size; }
